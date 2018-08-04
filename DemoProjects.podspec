@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DemoProjects"
   s.version      = "1.0.0"
-  s.summary      = "A short description of DemoProjects. this is only for demo"
+  s.summary      = "A short description of DemoProjects.used for fellow developer"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -93,7 +93,7 @@ this is discprtion A short description of DemoProjects. this is only for demo
   #DemoProjects
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  s.source_files  = "DemoProjects/**/*.{h,m}"
+  s.source_files  = "DemoProjects/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
