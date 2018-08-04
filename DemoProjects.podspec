@@ -90,9 +90,10 @@ this is discprtion A short description of DemoProjects. this is only for demo
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
-  #
+  #DemoProjects
+ # s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "DemoProjects/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
